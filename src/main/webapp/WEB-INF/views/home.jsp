@@ -28,8 +28,7 @@ function update_form(){
     success: function(data){
     	console.log(data);
 
-    },
-    
+    },    
     error: function (request, status, error){        
         var msg = "ERROR : " + request.status + "<br>"
       msg +=  + "내용 : " + request.responseText + "<br>" + error;
